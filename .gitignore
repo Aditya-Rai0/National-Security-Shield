@@ -1,0 +1,31 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment files (contain secrets)
+.env
+
+# Generated/downloaded artifacts
+temp_*.mp4
+backend/cache/
+
+# Large data files (may be proprietary)
+backend/data/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
